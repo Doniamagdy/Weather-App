@@ -1,0 +1,88 @@
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body  onload="defaultCity()">
+
+    <!-- <nav></nav> -->
+
+    <div class="container mt-5">
+
+        <div class="search_bar d-flex justify-content-between ">
+            <input type="text" placeholder="Search..." id="search" class="form-control w-75 my-5 ">
+            <button class="btn btn-warning my-5" id="btn">Search</button>
+        </div>
+
+
+        <div class="row mt-5">
+
+            <div class="col-sm-12 col-md-12 col-lg-4 my-2">
+                <div class="card shadow text-center text-white">
+                    <div class="card-header">
+                        <p id="date1"></p>
+                     
+                    </div>
+
+                    <div class="card-body p-5">
+                        <h3 id="city"></h3>
+                        <p id="dayx"></p>
+                        <img src="" alt="icons" id="imgx">
+                        <p id="conditionx"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-4 my-2">
+                <div class="card shadow  text-center text-white">
+                    <div class="card-header">
+                        <p id="date2"></p>
+                    </div>
+
+                    <div class="card-body p-5">
+                        <img src=" " alt="icons" id="img1">
+                        <p id="day1"></p>
+                        <p id="condition1"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-4 my-2">
+                <div class="card shadow text-center text-white">
+                    <div class="card-header">
+                        <p id="date3"></p>
+                    </div>
+
+                    <div class="card-body p-5">
+                        <img src=" " alt="icons" id="img2">
+                        <p id="day2"></p>
+                        <p id="condition2"></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    
+ <!-- <footer>
+
+ </footer> -->
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

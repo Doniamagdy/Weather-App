@@ -1,0 +1,46 @@
+body{
+    font-family: 'Original Surfer', cursive;
+    background-image:url('../images/sunset-clouds-with-sun-setting-it_188544-25396.avif') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+}
+    
+.search_bar input{
+    border-radius:30px;
+}
+
+
+.card{
+    height:450px;
+    background-color: rgba(0, 0, 0, 0.438);
+    /* background-color: rgba(0, 0, 0, 0.336); */
+}
+
+
+.card-header p{
+    font-size: 25px; 
+}
+.card-body #city{
+font-size: 45px;
+}
+
+.card-body #dayx{
+    font-size: 35px;
+    }
+
+.card-body #day1,
+.card-body #day2{
+font-size: 20px;
+}
+
+
+.card-body #conditionx{
+    font-size: 25px;
+}
+
+.card-body #condition1,
+.card-body #condition2{
+    font-size: 23px;
+}
