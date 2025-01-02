@@ -16,7 +16,7 @@ document.getElementById("date2").innerHTML = dayName2;
 document.getElementById("date3").innerHTML = dayName3;
 
 const apiUrl =
-  "https://api.weatherapi.com/v1/forecast.json?key=13a2b57f294c40af9dd72429220607&days=7&q=";
+  "https://api.weatherapi.com/v1/forecast.json?key=75239263496d44f188b103640250201&days=7&q=";
 
 var searchCity = document.getElementById("search");
 
